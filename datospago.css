@@ -30,9 +30,10 @@ header .logo p {
 }
 body{
     background: #000000;
- align-items: center;
-justify-content: center;
 
+    
+    align-items: center;
+    justify-content: center;
 }
 
 *{
