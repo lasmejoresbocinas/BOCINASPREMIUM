@@ -26,6 +26,7 @@ header .logo p {
 }
 body{
     background: #000000;
+
 }
 
 *{
@@ -36,82 +37,36 @@ body{
 	box-sizing: border-box;
 }
 
-.wrap{
-	width: 1100px;
-	margin: 50px auto;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.tarjeta-wrap{
-	margin: 10px;
-	-webkit-perspective: 800;
-	perspective: 800;
-}
-
-.tarjeta{
-	width: 300px;
-	height: 350px;
-	background: #11cbd8;
-	position: relative;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-transition: .7s ease;
-	transition: .7s ease;
-	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-
-}
-
-.adelante, .atras{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.adelante{
-	width: 100%;
-}
-
-.atras{
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-
-	padding: 15px;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-
-	text-align: center;
-	color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-}
-
-.tarjeta-wrap:hover .tarjeta{
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
-
-.card1{
-	background-image: url(img/imgpagotarjeta.jpg);
-	background-size: cover;
-}
+#Iframe-Liason-Sheet {
+    max-width: 760px;
+    max-height: 1200px;
+    
+    }
+    /* inner wrapper: make responsive */
+    .responsive-wrapper {
+    position: relative;
+    height: 0; /* gets height from padding-bottom setting */
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    }
+    .responsive-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+    /* padding-bottom = h/w as a % */
+    .responsive-wrapper-wxh-760x1200 {
+    padding-bottom: 110%;
+    }
+    .iframe-border {
+    border: 1px solid #000;
+    }
+    .center-block-horiz {
+    
+    margin: 40px auto;
+    }
