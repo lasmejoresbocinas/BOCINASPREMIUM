@@ -16,4 +16,4 @@ $('.formulario').animate({
 });
 /*cambio de indicador menu de crear cuenta - inicar secion _------->document.getElementById("toggle").innerHTML = "Iniciar Seción";*/
 
-/*------CONEXION CRUD-------*/
+
