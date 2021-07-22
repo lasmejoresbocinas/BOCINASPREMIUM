@@ -2,7 +2,7 @@
 header {
 	padding: 20px 0;
     margin-bottom: 5px;
-
+position: relative;
 }
 .logoimg{
     margin-top: -8px;
@@ -17,7 +17,7 @@ margin-right: 5px;
     position: absolute;
     font-size: 26px;
 	color: rgb(255, 255, 255);
-	margin-top: 11px;
+	margin-top: 10px;
 	margin-left: 79px;
 	float: left;
     font-family: 'Open Sans', sans-serif;
@@ -30,6 +30,7 @@ header .logo p {
 body{
     background: #000000;
 }
+
 
 #Iframe-Liason-Sheet {
     max-width: 760px;
