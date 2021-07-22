@@ -69,7 +69,7 @@ body{
     .responsive-wrapper-wxh-760x1200 {
         position: absolute;
       
-        top: 20%;
+        top: 18%;
         left: 0;
         width: 100%;
         height: 100%;
@@ -81,10 +81,10 @@ body{
     border: 1px solid #000;
     }
     .center-block-horiz {
-    
-    margin: 40px auto;
+        margin-left: auto !important;
+    margin-right: auto !important;
     }
-/* ------------------------- */
+/* ------------------------- 
 @media screen and (min-width: 1127px) {
     .titulo{
 		font-size: 26px;
@@ -161,3 +161,4 @@ body{
         padding-bottom: 100%;
         }*/
     }
+    */
