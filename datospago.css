@@ -138,9 +138,9 @@ body{
 		font-size: 21px;
 		margin-top: 7px;
 	}
-    .responsive-wrapper-wxh-760x1200 {
+   /* .responsive-wrapper-wxh-760x1200 {
         padding-bottom: 100%;
-        }
+        }*/
 }
 
 @media screen and (max-width: 574px) {
@@ -149,6 +149,7 @@ body{
 		font-size: 19px;
 		margin-top: 7px;
 	}
-    .responsive-wrapper-wxh-760x1200 {
+    /*.responsive-wrapper-wxh-760x1200 {
         padding-bottom: 100%;
-        }}
+        }*/
+    }
