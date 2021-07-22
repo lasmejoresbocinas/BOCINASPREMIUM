@@ -75,7 +75,7 @@ body{
     border: 1px solid #000;
     }
     .center-block-horiz {
-        margin: 40px auto;
+        margin-top: 60px;
     }
 /* ------------------------- 
 @media screen and (min-width: 1127px) {
