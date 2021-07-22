@@ -29,25 +29,12 @@ header .logo p {
 }
 body{
     background: #000000;
-
-  
-    align-items: center;
-    justify-content: center;
-
-}
-
-*{
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 }
 
 #Iframe-Liason-Sheet {
     max-width: 760px;
     max-height: 1200px;
-    
+    overflow: hidden;
     }
     /* inner wrapper: make responsive */
     .responsive-wrapper {
@@ -68,14 +55,14 @@ body{
     }
     /* padding-bottom = h/w as a % */
     .responsive-wrapper-wxh-760x1200 {
-    padding-bottom: 140%;
-        top: 45px;
-       
+    padding-bottom: 363.6364%;
     }
-  
+    .iframe-border {
+    border: 1px solid #000;
+    }
     .center-block-horiz {
-     
-        margin: 0 auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
     }
 /* ------------------------- 
 @media screen and (min-width: 1127px) {
